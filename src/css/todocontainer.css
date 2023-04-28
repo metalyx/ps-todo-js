@@ -1,0 +1,32 @@
+.boardsContainer {
+    margin: 25px 0;
+    display: flex;
+    max-width: 100vw;
+    overflow: auto;
+
+    gap: 10px;
+}
+
+.boardName {
+    margin: 0;
+}
+
+.boardsContainer ul {
+    /* width: 600px; */
+    width: 270px;
+    margin-top: 20px;
+
+    list-style-type: none;
+
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    -webkit-box-shadow: inset 2px 2px 20px 5px rgba(224, 251, 255, 1);
+    -moz-box-shadow: inset 2px 2px 20px 5px rgba(224, 251, 255, 1);
+    box-shadow: inset 2px 2px 20px 5px rgba(224, 251, 255, 1);
+    padding: 10px;
+}

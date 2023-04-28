@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/todocontainer.css">
+    <link rel="stylesheet" href="./src/css/todoItem.css">
+    <link rel="stylesheet" href="./src/css/modal.css">
+</head>
+<body>
+    <div>
+        <div>
+            <label for="newBoardInput">New Board</label>
+            <input type="text" id="newBoardInput" />
+            <button class="btn-primary" type="button" id="buttonAddNewBoard">Add new board</button>
+        </div>
+        <div>
+            <label for="newTaskInput">
+                Add New Task into
+                <select id="boardSelection"></select>
+            </label>
+            <input type="text" id="newTaskInput" />
+            <button class="btn-primary" type="button" id="buttonAddNewTask">Add new task</button>
+        </div>
+    </div>
+    <div class="boardsContainer"></div>
+    <div id="modal">
+        <div class="modalBackground">
+            <div class="modalContent">
+                some content
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="index.js"></script>
+</body>
+</html>
