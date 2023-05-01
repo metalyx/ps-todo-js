@@ -9,7 +9,6 @@ export default function addTaskHandle() {
         const newTask = getTaskObject(input.value.trim());
 
         boards.forEach((board) => {
-            console.log(SELECTED_BOARD);
             if (board.boardName === SELECTED_BOARD) {
                 board.tasks.push(newTask);
             }
